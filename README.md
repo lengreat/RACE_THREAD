@@ -11,7 +11,6 @@
   <a href="#introduction">Introduction</a> •
   <a href="#demo">Demo</a> •
   <a href="#setup">Setup</a> •
-  <a href="#options">Options</a> •
   <a href="#made_with">Made with</a> 
 </p>
 
@@ -51,12 +50,9 @@ $ git clone https://github.com/lengreat/RACE-THREAD.git
 $ start juego.exe
 ```
 
-<h1 id="options">Options</h1>
-You can change the boxes sheer number and choose to play with other player, likewise you can check all winners records in second option.
 
 <h1 id="made_with">Made with :hammer_and_wrench:</h1>
 
-<a href="#title"><img src="https://img.shields.io/badge/Language-blue.svg?&style=for-the-badge&logo=c%2B%2B&logoColor=whiite"></a>
-
+<a href="https://www.java.com/es/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303388/java-4-logo.svg" alt="Java" width="80" height="80"/> </a>
 
 
