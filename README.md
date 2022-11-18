@@ -41,7 +41,7 @@ Step by Step, before download and install:  <a href="https://code.visualstudio.c
 * Download or clone this repository
 ```ruby
 # Clone this repository
-$ git clone https://github.com/lengreat/RACE-THREAD.git
+$ git clone https://github.com/lengreat/RACE_THREAD.git
 ```
 * Steps in VSCode
 ```ruby
