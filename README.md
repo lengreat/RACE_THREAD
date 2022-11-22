@@ -47,7 +47,7 @@ $ git clone https://github.com/lengreat/RACE_THREAD.git
 ```ruby
 # "Shift + Ctrl + P" => "java: Install New JDK" to download Adoptium's Temurin Version 8 (LTS)
 # "Shift + Ctrl + P" => "java: Configure Java Runtime" to choose Java Version 8
-$ Option "Run" => Start Debugging or key F5
+# Option "Run" => Start Debugging or key F5
 ```
 
 
