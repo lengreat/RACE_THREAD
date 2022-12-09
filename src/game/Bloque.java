@@ -15,13 +15,13 @@ public class Bloque extends JPanel implements Runnable{
   int primer;//posiciones de los bloques dentro del conjunto de paneles
   int ultimo;
   int medio;
-  int velocidad=100;
+  int velocidad=100;//velocidad de parada de hilo
   int hPanel, hBloque;
     
   public Bloque(int numPanel, Asignacion arreglo){
     this.numPanel=numPanel;
     this.arreglo=arreglo;
-    setOpaque(true);
+    //setOpaque(true);
     num=arreglo.a[numPanel];//el elemento del arreglo aleatorio
     primer=1;
     ultimo=arreglo.a.length;//escoje ultimo numero entre el 1 al tamanio del arreglo
@@ -31,7 +31,7 @@ public class Bloque extends JPanel implements Runnable{
     empezarHilo();
     addMouseListener(new MouseAdapter(){
         public void mouseClicked(MouseEvent mouse){
-               if (velocidad>10){
+               if (velocidad>10){//si la velocidad ya es menor a 10 no disminuir mas
                  setBackground(Color.blue);
                  velocidad=velocidad-10;
                }
